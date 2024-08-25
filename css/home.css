@@ -1,0 +1,97 @@
+ /* for image learning online */
+ .fir-part {
+    background-color: #ffff;
+  }
+  .box-image {
+    padding: 20px 0 30px;
+  }
+  .im-f, .im-s, .im-th {
+    border-color: #faaf0d;
+    border-width: 30px;
+    padding: 0;
+  }
+  .im-f img, .im-s img, .im-th img {
+    position: relative;
+    border-radius: 5px;
+    border-color: #2F4F4F;
+    border-width: 10px;
+    max-width: 100%;
+  }
+  .box-text {
+    padding: 15% 10%;
+    text-align: center;
+    color: #faaf0d;
+  }
+  .start {
+    background-color: #000c54;
+    margin-top: 30px;
+    padding: 15px 50px;
+    color: #faaf0d;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+
+  /* for Learning English */
+  .learn-eng {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .box1 img {
+    width: 100%;
+    height: auto;
+  }
+  .box2 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .box2 h1 {
+    margin-bottom: 15px;
+  }
+  .box2 p {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  /* for about Us */
+  .about-us {
+    padding: 30px 0 100px;
+  }
+  .about-us h1 {
+    color: #000c54;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+  .about-us p {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .about-us img {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+  }
+   /* Responsive Adjustments */
+   @media (max-width: 767.98px) {
+    .box-image {
+      padding: 0;
+    }
+    .im-f img, .im-s img, .im-th img {
+      width: 100%;
+      margin-top: 0;
+    }
+    .box-text {
+      padding: 15% 5%;
+    }
+    .learn-eng .row {
+      text-align: center;
+    }
+    .learn-eng .box1, .learn-eng .box2 {
+      padding: 0;
+    }
+    .about-us img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }

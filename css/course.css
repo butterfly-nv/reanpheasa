@@ -1,0 +1,77 @@
+ /* for course */
+ .selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .selection a{
+    margin: 10px;
+  }
+
+  .box-lv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .lv img{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .lv-1, .lv-2, .lv-3, .lv-4,
+  .lv-5, .lv-6, .lv-7, .lv-8,
+  .lv-9, .lv-10, .lv-11, .lv-12{
+    padding: 30px 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+  }
+  .lv-1 button, .lv-2 button, .lv-3 button, .lv-4 button,
+  .lv-5 button, .lv-6 button, .lv-7 button, .lv-8 button,
+  .lv-9 button, .lv-10 button, .lv-11 button, .lv-12 button{
+      background-color: #DAA520;
+      border-radius: 5px;
+      border: #000c54 ;
+      padding: 2px 10px;
+      text-align: center;
+  }
+  .lv-1{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv6.jpg);
+  }
+  .lv-2{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv1.jpg);
+  }
+  .lv-3{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv2.jpg);
+  }
+  .lv-4{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv3.jpg);
+  }
+  .lv-5{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv4.jpg);
+  }
+  .lv-6{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv2.jpg);
+  }
+  .lv-7{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv3.jpg);
+  }
+  .lv-8{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv1.jpg);
+  }
+  .lv-9{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv5.jpg);
+  }
+  .lv-10{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv2.jpg);
+  }
+  .lv-11{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv3.jpg);
+  }
+  .lv-12{
+    background-image: linear-gradient(rgba(25, 47, 89, 0.8), rgba(25, 47, 89, 0.8)), url(image/lv4.jpg);
+  }
